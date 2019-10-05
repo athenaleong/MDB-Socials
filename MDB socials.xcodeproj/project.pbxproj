@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26390DEE0D5EF8D909659AE6 /* Pods_MDB_socialsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEFC6525A89182951176F11 /* Pods_MDB_socialsTests.framework */; };
+		4F40363B476593EDA1F9A7BE /* Pods_MDB_socials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96096E51266F2E532E765C2 /* Pods_MDB_socials.framework */; };
+		9F27804C81AD72D92302A5DA /* Pods_MDB_socialsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878D48631DAC443C89B14495 /* Pods_MDB_socialsUITests.framework */; };
+		ACEFB2CC233E8BFC00BBA8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEFB2CB233E8BFC00BBA8B8 /* AppDelegate.swift */; };
+		ACEFB2CE233E8BFC00BBA8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEFB2CD233E8BFC00BBA8B8 /* ViewController.swift */; };
+		ACEFB2D1233E8BFC00BBA8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2CF233E8BFC00BBA8B8 /* Main.storyboard */; };
+		ACEFB2D3233E8BFD00BBA8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2D2233E8BFD00BBA8B8 /* Assets.xcassets */; };
+		ACEFB2D6233E8BFD00BBA8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2D4233E8BFD00BBA8B8 /* LaunchScreen.storyboard */; };
+		ACEFB2E1233E8BFD00BBA8B8 /* MDB_socialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEFB2E0233E8BFD00BBA8B8 /* MDB_socialsTests.swift */; };
+		ACEFB2EC233E8BFD00BBA8B8 /* MDB_socialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEFB2EB233E8BFD00BBA8B8 /* MDB_socialsUITests.swift */; };
+		ACEFB2FA233EE0DD00BBA8B8 /* MDB socials.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2F9233EE0DD00BBA8B8 /* MDB socials.plist */; };
+		ACEFB2FB233EE0DD00BBA8B8 /* MDB socials.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2F9233EE0DD00BBA8B8 /* MDB socials.plist */; };
+		ACEFB2FC233EE0DD00BBA8B8 /* MDB socials.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEFB2F9233EE0DD00BBA8B8 /* MDB socials.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEFB2DD233E8BFD00BBA8B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEFB2C0233E8BFC00BBA8B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEFB2C7233E8BFC00BBA8B8;
+			remoteInfo = "MDB socials";
+		};
+		ACEFB2E8233E8BFD00BBA8B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEFB2C0233E8BFC00BBA8B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEFB2C7233E8BFC00BBA8B8;
+			remoteInfo = "MDB socials";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2137FD2C7EAFE09E48FB49CE /* Pods-MDB socialsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socialsUITests.release.xcconfig"; path = "Target Support Files/Pods-MDB socialsUITests/Pods-MDB socialsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		228BE707A2253B5580D62DB4 /* Pods-MDB socialsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socialsTests.debug.xcconfig"; path = "Target Support Files/Pods-MDB socialsTests/Pods-MDB socialsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBBA6569542229C49EF8988 /* Pods-MDB socialsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socialsTests.release.xcconfig"; path = "Target Support Files/Pods-MDB socialsTests/Pods-MDB socialsTests.release.xcconfig"; sourceTree = "<group>"; };
+		81F724272592CA62A1BAEDEF /* Pods-MDB socials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socials.release.xcconfig"; path = "Target Support Files/Pods-MDB socials/Pods-MDB socials.release.xcconfig"; sourceTree = "<group>"; };
+		878D48631DAC443C89B14495 /* Pods_MDB_socialsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDB_socialsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEFB2C8233E8BFC00BBA8B8 /* MDB socials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDB socials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEFB2CB233E8BFC00BBA8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACEFB2CD233E8BFC00BBA8B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACEFB2D0233E8BFC00BBA8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEFB2D2233E8BFD00BBA8B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEFB2D5233E8BFD00BBA8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACEFB2D7233E8BFD00BBA8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEFB2DC233E8BFD00BBA8B8 /* MDB socialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDB socialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEFB2E0233E8BFD00BBA8B8 /* MDB_socialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDB_socialsTests.swift; sourceTree = "<group>"; };
+		ACEFB2E2233E8BFD00BBA8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEFB2E7233E8BFD00BBA8B8 /* MDB socialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDB socialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEFB2EB233E8BFD00BBA8B8 /* MDB_socialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDB_socialsUITests.swift; sourceTree = "<group>"; };
+		ACEFB2ED233E8BFD00BBA8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEFB2F9233EE0DD00BBA8B8 /* MDB socials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MDB socials.plist"; sourceTree = "<group>"; };
+		BBEFC6525A89182951176F11 /* Pods_MDB_socialsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDB_socialsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2461BA3A0D2AEE1E1952764 /* Pods-MDB socials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socials.debug.xcconfig"; path = "Target Support Files/Pods-MDB socials/Pods-MDB socials.debug.xcconfig"; sourceTree = "<group>"; };
+		D89A9891D0BDC796A18B2525 /* Pods-MDB socialsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB socialsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDB socialsUITests/Pods-MDB socialsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D96096E51266F2E532E765C2 /* Pods_MDB_socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDB_socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEFB2C5233E8BFC00BBA8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F40363B476593EDA1F9A7BE /* Pods_MDB_socials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2D9233E8BFD00BBA8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26390DEE0D5EF8D909659AE6 /* Pods_MDB_socialsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2E4233E8BFD00BBA8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F27804C81AD72D92302A5DA /* Pods_MDB_socialsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1DE68CCB0CC5310D60520A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96096E51266F2E532E765C2 /* Pods_MDB_socials.framework */,
+				BBEFC6525A89182951176F11 /* Pods_MDB_socialsTests.framework */,
+				878D48631DAC443C89B14495 /* Pods_MDB_socialsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEFB2BF233E8BFC00BBA8B8 = {
+			isa = PBXGroup;
+			children = (
+				ACEFB2CA233E8BFC00BBA8B8 /* MDB socials */,
+				ACEFB2DF233E8BFD00BBA8B8 /* MDB socialsTests */,
+				ACEFB2EA233E8BFD00BBA8B8 /* MDB socialsUITests */,
+				ACEFB2C9233E8BFC00BBA8B8 /* Products */,
+				EC9C764E9319F78049469D2F /* Pods */,
+				1F1DE68CCB0CC5310D60520A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEFB2C9233E8BFC00BBA8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFB2C8233E8BFC00BBA8B8 /* MDB socials.app */,
+				ACEFB2DC233E8BFD00BBA8B8 /* MDB socialsTests.xctest */,
+				ACEFB2E7233E8BFD00BBA8B8 /* MDB socialsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEFB2CA233E8BFC00BBA8B8 /* MDB socials */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFB2CB233E8BFC00BBA8B8 /* AppDelegate.swift */,
+				ACEFB2CD233E8BFC00BBA8B8 /* ViewController.swift */,
+				ACEFB2CF233E8BFC00BBA8B8 /* Main.storyboard */,
+				ACEFB2D2233E8BFD00BBA8B8 /* Assets.xcassets */,
+				ACEFB2D4233E8BFD00BBA8B8 /* LaunchScreen.storyboard */,
+				ACEFB2D7233E8BFD00BBA8B8 /* Info.plist */,
+				ACEFB2F9233EE0DD00BBA8B8 /* MDB socials.plist */,
+			);
+			path = "MDB socials";
+			sourceTree = "<group>";
+		};
+		ACEFB2DF233E8BFD00BBA8B8 /* MDB socialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFB2E0233E8BFD00BBA8B8 /* MDB_socialsTests.swift */,
+				ACEFB2E2233E8BFD00BBA8B8 /* Info.plist */,
+			);
+			path = "MDB socialsTests";
+			sourceTree = "<group>";
+		};
+		ACEFB2EA233E8BFD00BBA8B8 /* MDB socialsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFB2EB233E8BFD00BBA8B8 /* MDB_socialsUITests.swift */,
+				ACEFB2ED233E8BFD00BBA8B8 /* Info.plist */,
+			);
+			path = "MDB socialsUITests";
+			sourceTree = "<group>";
+		};
+		EC9C764E9319F78049469D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2461BA3A0D2AEE1E1952764 /* Pods-MDB socials.debug.xcconfig */,
+				81F724272592CA62A1BAEDEF /* Pods-MDB socials.release.xcconfig */,
+				228BE707A2253B5580D62DB4 /* Pods-MDB socialsTests.debug.xcconfig */,
+				5BBBA6569542229C49EF8988 /* Pods-MDB socialsTests.release.xcconfig */,
+				D89A9891D0BDC796A18B2525 /* Pods-MDB socialsUITests.debug.xcconfig */,
+				2137FD2C7EAFE09E48FB49CE /* Pods-MDB socialsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEFB2C7233E8BFC00BBA8B8 /* MDB socials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEFB2F0233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socials" */;
+			buildPhases = (
+				E63E2CAE7788D0FD3E637C48 /* [CP] Check Pods Manifest.lock */,
+				ACEFB2C4233E8BFC00BBA8B8 /* Sources */,
+				ACEFB2C5233E8BFC00BBA8B8 /* Frameworks */,
+				ACEFB2C6233E8BFC00BBA8B8 /* Resources */,
+				21574B85D5D9184337A86B28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MDB socials";
+			productName = "MDB socials";
+			productReference = ACEFB2C8233E8BFC00BBA8B8 /* MDB socials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEFB2DB233E8BFD00BBA8B8 /* MDB socialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEFB2F3233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socialsTests" */;
+			buildPhases = (
+				55839BD30896D892FAF8F330 /* [CP] Check Pods Manifest.lock */,
+				ACEFB2D8233E8BFD00BBA8B8 /* Sources */,
+				ACEFB2D9233E8BFD00BBA8B8 /* Frameworks */,
+				ACEFB2DA233E8BFD00BBA8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEFB2DE233E8BFD00BBA8B8 /* PBXTargetDependency */,
+			);
+			name = "MDB socialsTests";
+			productName = "MDB socialsTests";
+			productReference = ACEFB2DC233E8BFD00BBA8B8 /* MDB socialsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACEFB2E6233E8BFD00BBA8B8 /* MDB socialsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEFB2F6233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socialsUITests" */;
+			buildPhases = (
+				D96FFF8B2C6CA4955BF53BDE /* [CP] Check Pods Manifest.lock */,
+				ACEFB2E3233E8BFD00BBA8B8 /* Sources */,
+				ACEFB2E4233E8BFD00BBA8B8 /* Frameworks */,
+				ACEFB2E5233E8BFD00BBA8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEFB2E9233E8BFD00BBA8B8 /* PBXTargetDependency */,
+			);
+			name = "MDB socialsUITests";
+			productName = "MDB socialsUITests";
+			productReference = ACEFB2E7233E8BFD00BBA8B8 /* MDB socialsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEFB2C0233E8BFC00BBA8B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Athena;
+				TargetAttributes = {
+					ACEFB2C7233E8BFC00BBA8B8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					ACEFB2DB233E8BFD00BBA8B8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ACEFB2C7233E8BFC00BBA8B8;
+					};
+					ACEFB2E6233E8BFD00BBA8B8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ACEFB2C7233E8BFC00BBA8B8;
+					};
+				};
+			};
+			buildConfigurationList = ACEFB2C3233E8BFC00BBA8B8 /* Build configuration list for PBXProject "MDB socials" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEFB2BF233E8BFC00BBA8B8;
+			productRefGroup = ACEFB2C9233E8BFC00BBA8B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEFB2C7233E8BFC00BBA8B8 /* MDB socials */,
+				ACEFB2DB233E8BFD00BBA8B8 /* MDB socialsTests */,
+				ACEFB2E6233E8BFD00BBA8B8 /* MDB socialsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEFB2C6233E8BFC00BBA8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2FA233EE0DD00BBA8B8 /* MDB socials.plist in Resources */,
+				ACEFB2D6233E8BFD00BBA8B8 /* LaunchScreen.storyboard in Resources */,
+				ACEFB2D3233E8BFD00BBA8B8 /* Assets.xcassets in Resources */,
+				ACEFB2D1233E8BFC00BBA8B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2DA233E8BFD00BBA8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2FB233EE0DD00BBA8B8 /* MDB socials.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2E5233E8BFD00BBA8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2FC233EE0DD00BBA8B8 /* MDB socials.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21574B85D5D9184337A86B28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDB socials/Pods-MDB socials-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDB socials/Pods-MDB socials-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDB socials/Pods-MDB socials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55839BD30896D892FAF8F330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDB socialsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96FFF8B2C6CA4955BF53BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDB socialsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63E2CAE7788D0FD3E637C48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDB socials-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEFB2C4233E8BFC00BBA8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2CE233E8BFC00BBA8B8 /* ViewController.swift in Sources */,
+				ACEFB2CC233E8BFC00BBA8B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2D8233E8BFD00BBA8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2E1233E8BFD00BBA8B8 /* MDB_socialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEFB2E3233E8BFD00BBA8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFB2EC233E8BFD00BBA8B8 /* MDB_socialsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEFB2DE233E8BFD00BBA8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEFB2C7233E8BFC00BBA8B8 /* MDB socials */;
+			targetProxy = ACEFB2DD233E8BFD00BBA8B8 /* PBXContainerItemProxy */;
+		};
+		ACEFB2E9233E8BFD00BBA8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEFB2C7233E8BFC00BBA8B8 /* MDB socials */;
+			targetProxy = ACEFB2E8233E8BFD00BBA8B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACEFB2CF233E8BFC00BBA8B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEFB2D0233E8BFC00BBA8B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEFB2D4233E8BFD00BBA8B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEFB2D5233E8BFD00BBA8B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEFB2EE233E8BFD00BBA8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEFB2EF233E8BFD00BBA8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEFB2F1233E8BFD00BBA8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2461BA3A0D2AEE1E1952764 /* Pods-MDB socials.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socials/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEFB2F2233E8BFD00BBA8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F724272592CA62A1BAEDEF /* Pods-MDB socials.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socials/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACEFB2F4233E8BFD00BBA8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228BE707A2253B5580D62DB4 /* Pods-MDB socialsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socialsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socialsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDB socials.app/MDB socials";
+			};
+			name = Debug;
+		};
+		ACEFB2F5233E8BFD00BBA8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBBA6569542229C49EF8988 /* Pods-MDB socialsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socialsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socialsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDB socials.app/MDB socials";
+			};
+			name = Release;
+		};
+		ACEFB2F7233E8BFD00BBA8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89A9891D0BDC796A18B2525 /* Pods-MDB socialsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socialsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socialsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MDB socials";
+			};
+			name = Debug;
+		};
+		ACEFB2F8233E8BFD00BBA8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2137FD2C7EAFE09E48FB49CE /* Pods-MDB socialsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MDB socialsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.MDB-socialsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MDB socials";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEFB2C3233E8BFC00BBA8B8 /* Build configuration list for PBXProject "MDB socials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEFB2EE233E8BFD00BBA8B8 /* Debug */,
+				ACEFB2EF233E8BFD00BBA8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEFB2F0233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEFB2F1233E8BFD00BBA8B8 /* Debug */,
+				ACEFB2F2233E8BFD00BBA8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEFB2F3233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEFB2F4233E8BFD00BBA8B8 /* Debug */,
+				ACEFB2F5233E8BFD00BBA8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEFB2F6233E8BFD00BBA8B8 /* Build configuration list for PBXNativeTarget "MDB socialsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEFB2F7233E8BFD00BBA8B8 /* Debug */,
+				ACEFB2F8233E8BFD00BBA8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEFB2C0233E8BFC00BBA8B8 /* Project object */;
+}
