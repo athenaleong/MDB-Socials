@@ -11,14 +11,14 @@ MDB Social is a social media app! It allows users to share events, view events a
 ### Feed
 Main Feed of the App
 
-![Feed]https://github.com/athenalyh/MDB-Socials/blob/master/Feed.png
+![Feed](https://github.com/athenalyh/MDB-Socials/blob/master/Feed.png)
 
 ### Login
 Login page to enter feed
 
-![Login]https://github.com/athenalyh/MDB-Socials/blob/master/Home.png
+![Login](https://github.com/athenalyh/MDB-Socials/blob/master/Home.png)
 
 ### New Social
 Create new social events and share them with friends
 
-![New Social]https://github.com/athenalyh/MDB-Socials/blob/master/NewSocials.png
+![New Social](https://github.com/athenalyh/MDB-Socials/blob/master/NewSocials.png)
